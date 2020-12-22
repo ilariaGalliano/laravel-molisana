@@ -1,0 +1,17 @@
+// General style
+body{
+    font-family: $main-font;
+    background: $body-col;
+    color: $text-col;
+} 
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
