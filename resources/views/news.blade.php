@@ -2,6 +2,7 @@
 
 @section('content')
 
-<h1>News</h1>
+<h1 class="disp-flex">News</h1>
+<p class="disp-flex">News about pasta page</p>
     
 @endsection

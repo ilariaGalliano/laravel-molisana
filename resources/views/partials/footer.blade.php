@@ -1,5 +1,5 @@
 {{-- Footer --}}
 
 <footer>
-    <p>Site la molisana</p>
+    <p class="disp-flex">Site la molisana</p>
 </footer>

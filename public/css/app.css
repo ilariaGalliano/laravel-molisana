@@ -14,3 +14,34 @@ img {
   margin: 0 auto;
   padding: 0 16px;
 }
+
+h2 {
+  text-transform: uppercase;
+}
+
+.section-type {
+  padding: 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #002d75;
+}
+
+.disp-flex {
+  display: flex;
+  justify-content: center;
+}
+
+/***
+* Product section
+**/
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+.boxes .box {
+  flex-basis: 30%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
