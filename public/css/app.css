@@ -7,6 +7,7 @@ body {
 img {
   max-width: 100%;
   height: auto;
+  display: block;
 }
 
 .container {
@@ -26,6 +27,12 @@ h2 {
 a {
   text-decoration: none;
   color: #002d75;
+}
+
+li {
+  list-style: none;
+  margin-right: 10px;
+  margin-top: 40px;
 }
 
 .disp-flex {

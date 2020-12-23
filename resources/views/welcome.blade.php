@@ -2,7 +2,18 @@
 
 @section('content')
 
-    <section class="section-type container">
+
+@include('partials.boxes', ['boxes' => $lunghe, 'title' => 'le lunghe']);
+
+@include('partials.boxes', ['boxes' => $corte, 'title' => 'le corte']);
+
+@include('partials.boxes', ['boxes' => $cortissime, 'title' => 'le cortissime']);
+
+
+@endsection
+
+
+    {{-- <section class="section-type container">
         <h2>Le Lunghe</h2>
 
         <div class="boxes">
@@ -10,7 +21,7 @@
                 <div class="box">
                     <img src="{{ $box['src'] }}" alt="{{ $box['titolo'] }}">
                     <h3>{{ $box['titolo'] }}</h3>
-                    <a href="#">Vedi prodotto</a>
+                    <a href="{{ route('product', $box['id']) }}">Vedi prodotto</a>
                 </div>
             @endforeach
         </div>
@@ -24,7 +35,7 @@
                 <div class="box">
                     <img src="{{ $box['src'] }}" alt="{{ $box['titolo'] }}">
                     <h3>{{ $box['titolo'] }}</h3>
-                    <a href="#">Vedi prodotto</a>
+                    <a href="{{ route('product', $box['id']) }}">Vedi prodotto</a>
                 </div>
             @endforeach
         </div>
@@ -38,11 +49,11 @@
                 <div class="box">
                     <img src="{{ $box['src'] }}" alt="{{ $box['titolo'] }}">
                     <h3>{{ $box['titolo'] }}</h3>
-                    <a href="#">Vedi prodotto</a>
+                    <a href="{{ route('product', $box['id']) }}">Vedi prodotto</a>
                 </div>
             @endforeach
         </div>
-    </section>
+    </section> --}}
 
   {{-- <section class="container">
     <div class="boxes">
@@ -58,4 +69,3 @@
 
 
 
-@endsection
