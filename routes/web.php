@@ -66,3 +66,10 @@ Route::get('/product/{id}', function ($id) {
 Route::get('/news', function () {
     return view('news');
 })->name('news');
+
+
+// Product page
+Route::get('/product-page', function () {
+
+    return view('product-page');
+})->name('product-page');
