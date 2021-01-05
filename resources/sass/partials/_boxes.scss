@@ -1,13 +1,69 @@
-/***
-* Product section
-**/
+//Product section - Boxes
 
-.boxes{
-    display: flex;
-    flex-wrap: wrap;
-    .box{
-        flex-basis: 30%;
-        margin-right: 2%;
-        margin-bottom: 2%;
+.main-content{
+    background-image: url('../img/fondo-pag-speciali.jpg');
+    background-position: left center;
+    height: 100%;
+    width: 100%;
+    .section-type{
+        h2{
+            color: $h2-col;
+            font-weight: 400;
+        }
+        .boxes{
+            display: flex;
+            flex-wrap: wrap;
+            .box{
+                flex-basis: 30%;
+                margin-right: 2%;
+                margin-bottom: 2%;
+                img{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }    
+}
+
+
+/* TABLET Da 991 px fino a 750 px */
+@media screen and (max-width: 991px){
+    .main-content{
+        max-width: 100%;
+        .section-type{
+            padding: 10px 0;
+            h2{
+                text-align: center;
+            }
+            .boxes{
+                .box{
+                    flex-basis: 45%;
+                    margin: 0px 10px 20px 20px;
+                }
+            }
+        }    
+    }
+}
+
+/* MOBILE Da 749 px fino a 350 px */
+@media screen and (max-width: 749px){
+    .main-content{
+        max-width: 100%;
+        .section-type{
+            padding: 10px 0;
+            h2{
+                text-align: center;
+            }
+            .boxes{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                .box{
+                    max-width: 100%;
+                    flex-basis: 90%;
+                }
+            }
+        }    
     }
 }

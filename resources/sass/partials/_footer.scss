@@ -1,0 +1,77 @@
+// Footer
+
+footer{
+    background-color: $back-white;
+    padding-top: 20px;
+    .col-left{
+        ul{
+            padding: 0;
+            li{
+                color: $footer-list;
+                padding-bottom: 4px;
+            }
+        }
+    }
+    .col-center,
+    .col-right{
+        h2{
+            color: $footer-list; 
+        }
+        ul{
+            padding: 0;
+            li{
+                color: $footer-list;
+                padding-bottom: 15px;
+            }
+        }
+    }
+    .sub-footer{
+        background-image: url('../img/footer-montagne-bottom.jpg');
+        background-repeat: no-repeat;
+        background-position: left center;
+        width: 100%;
+        height: 150px;
+    }
+}
+
+/* TABLET Da 991 px fino a 750 px */
+@media screen and (max-width: 991px){
+    footer{
+        .disp-flex-space{
+            flex-wrap: wrap;
+        }
+        .col-left,
+        .col-center,
+        .col-right{
+        flex-basis: 90%;
+            h2{
+                font-size: 18px;
+            }
+        }
+        .sub-footer{
+            max-width: 100%;
+            height: 150px;
+        }
+    }
+}
+
+/* MOBILE Da 749 px fino a 350 px */
+@media screen and (max-width: 749px){
+    footer{
+        .disp-flex-space{
+            flex-wrap: wrap;
+        }
+        .col-left,
+        .col-center,
+        .col-right{
+        flex-basis: 90%;
+            h2{
+                font-size: 18px;
+            }
+        }
+        .sub-footer{
+            max-width: 100%;
+            height: 150px;
+        }
+    }
+}

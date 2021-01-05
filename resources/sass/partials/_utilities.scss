@@ -1,4 +1,14 @@
+// Utilities
+
 .disp-flex{
     display: flex;
     justify-content: center;
+}
+
+.disp-flex-space{
+    display: flex;
+    justify-content: space-between;
+}
+.text-center{
+    text-align: center;
 }

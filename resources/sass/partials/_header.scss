@@ -1,0 +1,64 @@
+// Header
+
+header{
+    nav{
+        li{
+            margin: 40px 10px 0px;
+            font-size: 24px;
+            font-weight: 600;
+            padding: 10px;
+                &:hover{
+                    background-color: $hover-nav;
+                    transition: background-color 0.4s;
+                }
+            a{
+                color: $text-col;
+                padding: 10px;
+            }
+        }
+
+    }
+}
+
+.mobile-only{
+    display: none;
+}
+.desktop-only{
+    display: flex;
+}
+
+/* TABLET Da 991 px fino a 750 px */
+@media screen and (max-width: 991px){
+    header{
+        nav{
+            li{
+                margin: 20px 5px 0px;
+                font-size: 22px;
+            }
+        }
+    }
+    .mobile-only{
+        display: flex;  
+        i{
+            font-size: 25px;
+        }
+    }
+    .desktop-only{
+        display: none;
+    }
+}
+/* MOBILE Da 749 px fino a 350 px */
+@media screen and (max-width: 749px){
+    header{
+        nav{
+            li{
+                margin: 20px 5px 0px;
+                font-size: 22px;
+            }
+        }
+    }
+    .desktop-only{
+        display: none;
+    }
+}
+

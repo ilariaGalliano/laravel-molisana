@@ -1,8 +1,21 @@
 // Var
+
 // Colors
-$body-col: #f2f2f2;
+$back-white: #ffffff;
+$white: #fff;
 $text-col: #333;
 $a-col: #002d75;
+$h2-col: #002d73;
+$hover-nav: #b2e5fc;
+$footer-list: #a4aab5;
+$back-prod: #b7dae5;
 
 // Typography
 $main-font: "Nunito", sans-serif;
+
+// Mixin
+@mixin centerer-top {
+    position: absolute;
+    top: 90%;
+    transform: translateY(-90%);
+}

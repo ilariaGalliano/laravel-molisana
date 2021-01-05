@@ -2,12 +2,15 @@
 
 @section('content')
 
+<div class="main-content">
 
-@include('partials.boxes', ['boxes' => $lunghe, 'title' => 'le lunghe']);
+@include('partials.boxes', ['boxes' => $lunghe, 'title' => 'le lunghe'])
 
-@include('partials.boxes', ['boxes' => $corte, 'title' => 'le corte']);
+@include('partials.boxes', ['boxes' => $corte, 'title' => 'le corte'])
 
-@include('partials.boxes', ['boxes' => $cortissime, 'title' => 'le cortissime']);
+@include('partials.boxes', ['boxes' => $cortissime, 'title' => 'le cortissime'])
+
+</div>
 
 
 @endsection

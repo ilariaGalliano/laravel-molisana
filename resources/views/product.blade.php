@@ -6,17 +6,21 @@
     <div class="container">
         <div class="navigation">
           @if($id > 0)
-            <a href="{{ route('product', $id -1) }}">&lt; PREV</a>
+            <a href="{{ route('product', $id -1) }}">
+              <i class="prev fas fa-angle-left"></i>
+            </a>
           @endif
 
           @if($id < $length)
-            <a href="{{ route('product', $id +1) }}">NEXT &gt;</a>
+            <a href="{{ route('product', $id +1) }}">
+              <i class="next fas fa-angle-right"></i>
+            </a>
           @endif
 
         </div>
 
         <div class="hero">
-            <h1>{{ $product['titolo'] }}</h1>
+            <h1 class="text-center">{{ $product['titolo'] }}</h1>
             <img src="{{ $product['src-h'] }}" alt="{{ $product['titolo'] }}">
             <img src="{{ $product['src-p'] }}" alt="{{ $product['titolo'] }}">
         </div>
@@ -28,3 +32,4 @@
 </section>
     
 @endsection
+

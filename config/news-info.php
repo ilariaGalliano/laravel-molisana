@@ -1,0 +1,15 @@
+<?php
+$data = [
+
+
+        [
+            'title' => 'Progetto Maestà: La Molisana confeziona 135 milioni di piatti di pasta con grano coltivato solo in Basso Molise',
+            'subtitle'=> 'Coltura e cultura, innovazione e produttività, lavoro e sostenibilità: La Molisana realizza un progetto ambizioso costituendo con gli operatori della filiera e le cooperative agricole l\'Op Cereali Centro Sud.',
+            'description' => 'Un’Organizzazione di Produttori con quattro cooperative, 600 soci produttori, specializzati nella produzione di cereali nei terreni di Guglionesi, Montenero di Bisaccia e Palata.
+            “Con il prossimo raccolto di giugno 2017 garantiremo 135 milioni di piatti di pasta – afferma soddisfatto l’Amministratore delegato, Giuseppe Ferro – Un grano speciale tutto molisano, di due qualità eccellenti, Maestà e Don Matteo, tenaci in cottura e con un indice proteico del 15%”. 
+            Una sinergia della filiera agro-alimentare che rappresenta il presente e il futuro per far emergere il Food Made in Italy raggiungendo livelli alti di produttività, sostenibilità e sicurezza alimentare. Una nuova cultura della coltivazione alternativa, con accordi di filiera precisi, 
+            per garantire e migliorare tutti i servizi. L’OP assicura la programmazione e l’adeguamento della produzione alla domanda dal punto di vista quantitativo e qualitativo, riduce i costi e stabilizza i prezzi, promuove pratiche e tecniche produttive per migliorare la qualità dei prodotti e favorire la biodiversità, realizza iniziative relative alla logistica adottando tecnologie innovative. Un incremento di produzione, dunque, per La Molisana che al 31 ottobre 2016 si attesta su un fatturato del +27% con una crescita di forza lavoro dal 2011, anno dell’acquisizione del gruppo Ferro, ad oggi pari al 100%. Il futuro del frumento italiano sarà all’insegna della sostenibilità e dell’aggregazione, passaggi obbligati per continuare a fare reddito con questa coltura in uno scenario che chiede attenzione ma che vede sempre più forte la volatilità dei mercati. “Per tutelare il reddito si può agire su queste leve – afferma Herbert Lavorano, presidente dell’OP Cereali Centro Sud – produttività e redditività colturale, qualità, offrendo materie prime adatte ad ottenere semilavorati e chiedendo in cambio ai compratori un premio per le loro caratteristiche e riduzione del rischio, stipulando contratti con modalità di determinazione del prezzo che mettano al riparo dalle eccessive oscillazioni. Stipuliamo quindi contratti di filiera con i clienti prima di mettere in moto il processo produttivo in modo da controllare la tecnica colturale e i relativi costi in funzione del risultato atteso. I costi di transazione sono elevati, per cui è necessaria l’aggregazione tra operatori del settore”. Ed è quello che è avvenuto in Molise grazie alle cooperative Cerealicole “Colle dell’Ulivo” di Palata, “Colline Verdi” di Montenero di Bisaccia, “Le Macchie” di Guglionesi e “Fortore” di Jelsi che garantiranno oltre 11mila tonnellate di grano Maestà e Don Matteo.',
+        ],
+    ];
+        
+return $data;

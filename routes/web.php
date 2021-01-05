@@ -64,12 +64,23 @@ Route::get('/product/{id}', function ($id) {
 
 // News page
 Route::get('/news', function () {
-    return view('news');
+
+    $data = config('news-info');
+    
+    return view('news', compact('data'));
+   
 })->name('news');
 
 
 // Product page
 Route::get('/product-page', function () {
 
-    return view('product-page');
-})->name('product-page');
+    $data = config('product-info');
+
+    return view('product-page', compact('data'));
+
+})->name('product-page'); 
+
+
+
+

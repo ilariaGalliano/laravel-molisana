@@ -1,37 +1,32 @@
 // General style
+
 body{
     font-family: $main-font;
-    background: $body-col;
+    background: $back-white;
     color: $text-col;
 } 
-
 img{
     max-width: 100%;
     height: auto;
     display: block;
 }
-
+h2{
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    color: $a-col;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
 .container{
     max-width: 1040px;
     margin: 0 auto;
     padding: 0 16px;
 }
-
-h2{
-    text-transform: uppercase;
-}
-
 .section-type{
     padding: 20px 0;
-}
-
-a{
-    text-decoration: none;
-    color: $a-col;
-}
-
-li{
-    list-style: none;
-    margin-right: 10px;
-    margin-top: 40px;
 }

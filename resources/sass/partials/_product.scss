@@ -1,0 +1,43 @@
+// Production page
+
+.prod-section{
+    background-color: $back-prod;
+       h1{
+        font-size: 26px;
+        padding-top: 50px;
+        color: $a-col;
+        margin: 0;
+       }
+       p{
+        font-size: 20px;
+        color: $a-col;
+        line-height: 1.4;
+        padding: 25px 0;
+       }
+       .next, 
+       .prev {
+        @include centerer-top;
+        padding: 15px;
+        background: rgba($white, .40);
+        border-radius: 5px;
+        font-size: 28px;
+        color: $white;
+        transition: color 0.4s,
+                   background 0.4s;           
+            &:hover {
+            color: $a-col;
+            background: $white;
+            }
+        }
+   
+   .next {
+       right: 2%;
+   }
+   
+   .prev {
+       left: 2%;
+   }
+   
+}
+   
+

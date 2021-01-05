@@ -1,0 +1,60 @@
+// Product page
+
+.prod-content{
+    background-color: $back-prod;
+    .hero{
+       h1{
+        color: $a-col;
+        font-size: 24px;
+        padding: 50px 0 35px;
+        margin: 0;
+       }
+    }
+    .products{
+        display: flex;
+        flex-wrap: wrap;
+        .type{
+            flex-basis: 45%;
+            margin-right: 5%;
+            margin-bottom: 5%;
+            h4{
+                color: $a-col; 
+                font-size: 18px;
+            }
+            img{
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+
+/* TABLET Da 991 px fino a 750 px */
+@media screen and (max-width: 991px){
+    .prod-content{
+        max-width: 100%;
+            .products{
+                .type{
+                    flex-basis: 45%;
+                    margin: 0px 10px 20px 20px;
+                }
+            }  
+    }
+}
+
+/* MOBILE Da 749 px fino a 350 px */
+@media screen and (max-width: 749px){
+    .prod-content{
+        max-width: 100%;
+            .products{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                .type{
+                    max-width: 100%;
+                    flex-basis: 90%;
+                }
+            }
+    }    
+}
