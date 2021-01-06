@@ -16,7 +16,6 @@ header{
                 padding: 10px;
             }
         }
-
     }
 }
 
@@ -45,6 +44,11 @@ header{
     }
     .desktop-only{
         display: none;
+    }
+    .toggle-menu{
+        li{
+            font-size: 18px;
+        }
     }
 }
 /* MOBILE Da 749 px fino a 350 px */

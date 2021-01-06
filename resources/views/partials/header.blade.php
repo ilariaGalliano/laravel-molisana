@@ -21,10 +21,25 @@
       </nav>
 
       <nav class="disp-flex mobile-only">
-        <li>
-          <i class="fas fa-bars"></i>
-        </li>
+          <li>
+            <i @click="isActive = !isActive" class="fas fa-bars"></i>
+          </li>
+
+          {{-- Toggle menu --}}
+            <div v-if="isActive" class="toggle-menu disp-flex">
+                <li>
+                  <a href="{{ route('welcome')}}">Home</a>
+                </li>
+                <li>
+                  <a href="{{ route('product-page') }}">Prodotti</a>
+                </li>
+                <li>
+                  <a href="{{ route('news') }}">News</a>
+                </li>
+            </div>
+
       </nav>
           
     </div>      
 </header>
+

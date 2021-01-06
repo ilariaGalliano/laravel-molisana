@@ -89,6 +89,10 @@ header nav li a {
   .desktop-only {
     display: none;
   }
+
+  .toggle-menu li {
+    font-size: 18px;
+  }
 }
 /* MOBILE Da 749 px fino a 350 px */
 @media screen and (max-width: 749px) {

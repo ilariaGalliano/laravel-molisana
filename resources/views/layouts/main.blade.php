@@ -15,6 +15,8 @@
 
     <body>
        
+      <div id="pasta">
+       
         @include('partials.header')
 
         <main>
@@ -23,6 +25,11 @@
         
 
         @include('partials.footer')
-        
+
+      </div>
+
+      <script src="{{ asset('js/app.js')}}"></script>
+
     </body>
+
 </html>
